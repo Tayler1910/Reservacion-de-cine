@@ -17,7 +17,7 @@ La aplicación permite administrar películas y realizar reservaciones de asient
 # Instalación y ejecución
 
 - Descargar
-- Abrir el archivo de solución .sln en Visual Studio.
+- Abrir el archivo de solución .slnx en Visual Studio.
 - Esperar a que el proyecto cargue correctamente.
 - Ejecutar la aplicación con el botón Iniciar.
 
@@ -30,19 +30,19 @@ La aplicación permite administrar películas y realizar reservaciones de asient
 
 | Explicación | Ubicación en el código |
 |---|---|
-| Organiza los 20 asientos del cine en 4 filas y 5 columnas. El arreglo de botones permite manejar los asientos visualmente, mientras que la matriz de números indica si están libres o reservados. | Archivo: `Peliculas.cs`. Clase: `Peliculas`, variable `asientos` y método `MostrarAsientos()`. Clase: `Pelicula`, variable `Asientos`. |
+| Organiza los 20 asientos del cine en 4 filas y 5 columnas. El arreglo de botones permite manejar los asientos visualmente, mientras que la matriz de números indica si están libres o reservados. | Archivo: `Form1.cs`. Clase: `Peliculas`, variable `asientos` y método `MostrarAsientos()`. Clase: `Pelicula`, variable `Asientos`. |
 
 ### 2. ArrayList
 
 | Explicación | Ubicación en el código |
 |---|---|
-| Guarda las películas y permite agregarlas, modificarlas y eliminarlas. | Archivo: `Peliculas.cs`. Clase: `Peliculas`. Variable: `peliculas`. Métodos: `ActualizarPeliculas()`, `btnAgregarPelicula_Click()` y `btnEliminarPelicula_Click()`. |
+| Guarda las películas y permite agregarlas, modificarlas y eliminarlas. | Archivo: `Form1.cs`. Clase: `Peliculas`. Variable: `peliculas`. Métodos: `ActualizarPeliculas()`, `btnAgregarPelicula_Click()` y `btnEliminarPelicula_Click()`. |
 
 ### 3. Lista simplemente enlazada
 
 | Explicación | Ubicación en el código |
 |---|---|
-| Guarda las reservas mediante nodos conectados entre sí. Cada nodo contiene una reserva y una referencia al siguiente nodo. | Archivo: `Peliculas.cs`. Clase: `NodoReserva`, variables `Datos` y `Siguiente`. Clase: `Peliculas`, variable `inicio` y métodos `btnReservar_Click()`, `MostrarReservas()` y `btnCancelar_Click()`. |
+| Guarda las reservas mediante nodos conectados entre sí. Cada nodo contiene una reserva y una referencia al siguiente nodo. | Archivo: `Forms1.cs`. Clase: `NodoReserva`, variables `Datos` y `Siguiente`. Clase: `Peliculas`, variable `inicio` y métodos `btnReservar_Click()`, `MostrarReservas()` y `btnCancelar_Click()`. |
 
 ## Datos de ejemplo para la demostración
 
